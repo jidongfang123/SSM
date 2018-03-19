@@ -38,7 +38,7 @@ public class UserController {
 	private UserService userService;
 	private User user;
 	
-	//查询数据le
+	//查询数据呵呵
 	@RequestMapping(value = "show_list" , method = { RequestMethod.POST })
 	@ResponseBody
 	List<User> show_list(Model model,UserRequest userRequest){
